@@ -1,2 +1,46 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+.header-container {
+    background-image: url('./images/bg-header-desktop.png');
+    background-repeat: no-repeat;
+    text-align: center;
+
+    padding-top: 100px;
+}
+
+.header-container h1{
+    font-weight: 600;
+    margin-top: 40px;
+    color: var(--cor-titulo);
+}
+
+.header-container p{
+    margin-top: 25px;
+    font-weight: 400;
+    color: var(--cor-paragrafo);
+}
+
+.header-container section{
+    margin-top: 30px;
+}
+
+.header-container section a{
+    color: #ffff;
+    padding: 10px 30px;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+.ios{
+    background-color: hsl(171, 66%, 44%);
+}
+.mac{
+    background-color: hsl(233, 100%, 69%);
+}
+
+.header-container section a:hover{
+    padding: 8px 25px;
+    transition: 0.5s;
+}
