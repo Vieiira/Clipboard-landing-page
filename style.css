@@ -12,13 +12,13 @@
 .header-container h1{
     font-weight: 600;
     margin-top: 40px;
-    color: var(--cor-titulo);
+
 }
 
 .header-container p{
     margin-top: 25px;
     font-weight: 400;
-    color: var(--cor-paragrafo);
+  
 }
 
 .header-container section{
@@ -44,3 +44,41 @@
     padding: 8px 25px;
     transition: 0.5s;
 }
+
+.container-main{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.container-main p{
+    margin-top: 25px;
+}
+
+
+
+.desktop-info{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 70px;
+    grid-template-rows: 400px;
+    
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: start;
+    margin-top: 70px;
+
+}
+
+.desktop-info ul li{
+    list-style: none;
+}
+.desktop-info ul h2{
+    font-size: 18px;
+    font-weight: 600;
+}
+
