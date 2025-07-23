@@ -84,6 +84,6 @@ ul{
 }
 
 
-img:last-child{
+.container-main img:last-child{
     margin-top: 70px;
 }
