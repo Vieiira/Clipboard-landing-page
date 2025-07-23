@@ -58,6 +58,7 @@
 
 .desktop-info{
     margin-top: 100px;
+    margin-bottom: 302px;
     display: grid;
     grid-template-columns: auto auto;
     column-gap: 70px;
@@ -82,3 +83,7 @@ ul{
     font-weight: 600;
 }
 
+
+img:last-child{
+    margin-top: 70px;
+}
