@@ -87,3 +87,41 @@ ul{
 .container-main img:last-child{
     margin-top: 70px;
 }
+
+.functions-info{
+    text-align: center;
+}
+
+.functions-info p{
+    margin-top: 20px;
+}
+
+.functions{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-align: center; 
+    margin: 50px 100px;
+}
+
+.functions li{
+    display: flex;
+    align-items: center;
+    flex-direction:column ;
+    flex-basis: 300px;
+
+}
+
+.functions img{
+    margin-bottom: 30px;
+    width: 44px;
+}
+
+
+.companies{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    margin: 150px 100px;
+}
