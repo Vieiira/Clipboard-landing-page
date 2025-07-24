@@ -165,3 +165,51 @@
     padding: 8px 25px;
     transition: 0.5s;
 }
+
+.contact-and-info{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  hsla(200, 8%, 77%, 0.39);
+    padding: 20px;
+}
+
+
+.contact-and-info .logo-site{
+    width: 50px;
+    height: 50px;
+    margin-left: 150px;
+}
+
+
+.contact-and-info ul{
+    list-style: none;
+}
+
+.contact{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    grid-column-gap:100px ;
+    grid-row-gap: 20px;
+}
+
+.contact a{
+    text-decoration: none;
+    color: hsl(210, 10%, 33%);
+}
+
+.social-logos{
+    display: flex;
+    text-align: center;
+    margin-right: 150px;
+}
+
+.social-logos a{
+    margin: 10px;
+}
+
+.attribution{
+    background-color:  hsla(200, 8%, 77%, 0.39);
+}
