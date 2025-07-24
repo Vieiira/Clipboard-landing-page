@@ -33,10 +33,10 @@
     border-radius: 50px;
 }
 
-.ios{
+.header-container section .ios{
     background-color: hsl(171, 66%, 44%);
 }
-.mac{
+.header-container section .mac{
     background-color: hsl(233, 100%, 69%);
 }
 
@@ -129,4 +129,39 @@
 
 }
 
+.download{
+    text-align: center;
+}
 
+.download p{
+    margin-top: 25px;
+}
+
+.download h2{
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.download section{
+    margin-top: 30px;
+}
+
+.download section a{
+    color: #ffff;
+    padding: 10px 30px;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+.download section .ios{
+    background-color: hsl(171, 66%, 44%);
+}
+.download section .mac{
+    background-color: hsl(233, 100%, 69%);
+}
+
+.download section a:hover{
+    padding: 8px 25px;
+    transition: 0.5s;
+}
