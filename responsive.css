@@ -1,0 +1,125 @@
+@media (max-width:768px)  {
+
+
+  .desktop-info img{
+    width: 300px;
+  }
+
+  .container-main .imagem-celular{
+    width: 350px;
+  }
+    
+
+
+  .header-container{
+    background-image: url("./images/bg-header-mobile.png");
+    background-size: cover;
+    
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-container section{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header-container section a{
+    margin-top: 20px;
+  }
+
+  .header-container img{
+    width: 150px;
+  }
+
+
+  .container-main .desktop-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+  }
+
+  .desktop-info ul{
+    text-align: center;
+
+  }
+  
+    .desktop-info ul li{
+        margin-top: 30px;
+  }
+
+    .desktop-info ul li p{
+        margin-top: 5px;
+  }
+
+  .desktop-info{
+    margin-bottom: 100px;
+  }
+
+
+
+  .functions-info .functions{
+    display: flex;
+    flex-direction: column;
+    margin:50px 0px;
+  }
+
+
+  
+  .functions-info .functions li{
+   margin-bottom: 30px;
+   flex-basis: 150px;
+  }
+  
+
+  .companies{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0px;
+  }
+
+  .companies li{
+    margin-bottom: 50px;
+  }
+
+  .download section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .download section a{
+    margin-bottom: 20px;
+    width: 190px;
+  }
+
+  .contact-and-info{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-and-info .logo-site{
+    margin-left: 0px;
+    margin-bottom: 50px;
+  }
+
+  .contact-and-info .contact{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact-and-info .contact{
+    margin-bottom: 50px;
+  }
+  
+
+  .social-logos{
+    margin-right: 0px;
+  }
+
+
+    
+}
